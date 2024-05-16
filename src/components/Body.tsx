@@ -1,10 +1,15 @@
+import Feature from "./Feature";
 import Hero from "./Hero";
+import Testimonials from "./Testimonials";
 
 const Body = () => {
   return (
     <div className="font-jakarta overflow-hidden">
-      {/*  hero page */}
       <Hero />
+
+      <Feature />
+
+      <Testimonials />
     </div>
   );
 };
