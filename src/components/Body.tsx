@@ -1,4 +1,6 @@
+import Faq from "./Faq";
 import Feature from "./Feature";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import Testimonials from "./Testimonials";
 
@@ -10,6 +12,10 @@ const Body = () => {
       <Feature />
 
       <Testimonials />
+
+      <Faq />
+
+      <Footer />
     </div>
   );
 };
